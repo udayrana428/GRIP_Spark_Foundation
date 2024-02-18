@@ -1,0 +1,149 @@
+#navigation {
+  background-color: rgb(0, 85, 134) !important;
+}
+
+.heading {
+  font-family: 'Sigmar One', cursive;
+  color: white !important;
+  font-size: 35px;
+  margin-left: 10px;
+  pointer-events: none;
+  cursor: default;
+}
+
+.navLinks {
+  margin-left: 45%;
+}
+
+.navItems {
+  margin: 0px 15px;
+}
+
+.navItems a {
+  font-size: 20px;
+  padding: 10px 0px;
+}
+
+.navItems .other-links {
+  color: white !important;
+}
+
+.navItems a:hover {
+  color: #85b0be !important;
+  font-weight: bold;
+}
+
+.nav-items .active {
+  color: #85b0be !important;
+  font-weight: bold;
+  border: 3px solid;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: white;
+}
+
+section#footer {
+  background-color: rgb(0, 80, 199);
+  margin: 0;
+  color: #fff;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20;
+
+}
+
+.nav-links,
+.contact-info,
+.social-links {
+  width: 30%;
+}
+
+.nav-links ul,
+.contact-info p {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links ul li a{
+  color: white;
+}
+
+.social-network {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-network li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-network li:last-child {
+  margin-right: 0;
+}
+
+.social-network li a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #333; /* Adjust as per your design */
+  text-align: center;
+  line-height: 30px;
+  color: #fff; /* Adjust as per your design */
+}
+
+.social-network li a:hover {
+  background-color: #000; /* Adjust as per your design */
+}
+
+
+
+@media screen and (max-width: 1190px) {
+  .navLinks {
+    margin-left: 40%;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  .navLinks {
+    margin-left: 33%;
+  }
+}
+
+@media screen and (max-device-width: 991px) {
+  .navLinks {
+    margin-left: 0;
+  }
+
+  .navItems a {
+    text-align: center;
+  }
+}
+
+
+/* New css */
+
+.navbar{
+  background-color: rgb(0, 80, 199);
+}
+
+.nav-item{
+  margin: 0 .5em;
+}
+.nav-item .active{
+  /* background-color: white; */
+  border: 2px solid white;
+  /* border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  margin: 0 1em; */
+  border-radius: 10%;
+
+}

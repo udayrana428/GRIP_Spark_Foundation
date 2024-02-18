@@ -1,0 +1,20 @@
+{
+  "homepage": "https://udayrana428.github.io/GRIP_Spark_Foundation",
+  "name": "spark_foundation_uday_task3",
+  "version": "1.0.0",
+  "description": "Its a Task of Spark Foundation for Payment Gateway Integration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build -r https://github.com/udayrana428/GRIP_Spark_Foundation",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "author": "Uday Rana",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^6.1.1",
+    "react-scripts": "^5.0.1"
+  }
+}
